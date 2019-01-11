@@ -7,6 +7,7 @@ def result
     de = 0
     while numerocase >=0 && numerocase <10
         de = rand(1..6)
+        puts de
         if de == 5 || de == 6
             puts "Tu avances d'une case!"
             numerocase += 1
@@ -26,7 +27,7 @@ def result
 end
 
 def victoire
-    if numerocase = 10
+    if numerocase == 10
         puts "Tu es sur la case 10, tu as gagné!"
     end
 end
