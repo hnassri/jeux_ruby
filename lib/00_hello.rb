@@ -12,4 +12,4 @@ def perform
     say_hello(first_name)
 end
 
-say_hello
+perform
